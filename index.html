@@ -4,7 +4,7 @@
     <meta charset="utf8">
     <title>My First Bitstarter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
@@ -12,7 +12,6 @@
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800">
     <style type="text/css">
-
       /* Large desktop */
       @media (min-width: 980px) {
         body {
@@ -26,6 +25,7 @@
         }
       }
 
+      /* Landscape phones and down */
       @media (max-width: 480px) {
         .copy {
           padding: 2.5% 10%;
@@ -83,6 +83,18 @@
       .asset {
         padding: 2.5% 0%;
       }
+
+      .footer {
+        color: #cccccc;
+        text-align: center;
+      }
+      .footer p {
+        font-size: 11px;
+      }
+      .footer a {
+        color: #ccccff;
+      }
+
     </style>
   </head>
   <body>
@@ -110,12 +122,12 @@
     <div class="container">
   		<div class="row-fluid heading">
   			<div class="span12">
-  				<h1>AutoTrack</h1>
+  				<h1>Product</h1>
   			</div>
   		</div>
   		<div class="row-fluid subheading">
   			<div class="span12">
-  				<p class="lead">Trac and monitor your movement.</p>
+  				<p class="lead">One sentence description.</p>
   			</div>
   		</div>
 
@@ -123,7 +135,6 @@
         <div class="span5 offset1 video">
           <img class="img-polaroid" src="http://placehold.it/480x300">
         </div>
-
 
         <!-- Actions div to contain statistics, order and share buttons. -->
         <div class="span5 actions">
@@ -227,9 +238,12 @@
 
   		<div class="row-fluid footer">
   			<div class="span12">
-  				Footer
-  			</div>
+          <p>This work is licensed under the 
+            <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>, 
+            without all the cruft that would otherwise be
+            put at the bottom of the page.</p>  			
+        </div>
   		</div>
-	</div>
+    </div>
   </body>
 </html>
